@@ -18,3 +18,7 @@ def sakura():
 
   with cd(target_dir):
     run('git pull')
+
+def push():
+
+  local('git push hub HEAD')
