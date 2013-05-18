@@ -10,4 +10,4 @@ date_default_timezone_set($tz);
 
 header('Content-Type: text/plain');
 
-echo date('c') . " (tz = $tz)";
+echo date('c') . " (tz = $tz)\n";
